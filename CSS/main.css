@@ -1,0 +1,96 @@
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+a #id-2 {
+  background-color: #45f442;
+}
+
+body {
+	width: 100%;
+	
+}
+
+table {
+border-collapse: collapse;
+margin: 0 auto;
+}
+
+ 
+div {
+  font-size: 23px;
+
+}
+
+.Square {
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  font-size: 60px;
+  border: 3px solid #222;
+}
+td::after {
+  content: '';
+  display: block;
+  
+}
+ 
+td {
+  border: 3px solid #222;
+}
+ 
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+ 
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+ 
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+ 
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
+}
+div  {
+  display: inline-block;
+}
+div #id-1 {
+  margin: 0 auto;
+}
+
+.set {
+  border: 1px solid black;
+
+}
+
+.button {
+  margin: 0.5vh;
+  padding: 0;
+
+  height: 5vh;
+  width: 15.5vh;
+  line-height: 5vh;
+  vertical-align: middle;
+
+  background: #fff;
+  text-align: center;
+  border-radius: 5px solid black;
+  cursor: pointer;
+
+  float: left;
+}
